@@ -2,7 +2,7 @@
   "name": "node-typescript_boilerplate",
   "version": "0.1.0",
   "description": "",
-  "main": "dist/index",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
     "start": "node .",
