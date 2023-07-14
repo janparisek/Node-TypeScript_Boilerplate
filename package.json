@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node .",
     "test": "tsc && node .",
-    "lint": "npx ts-standard --fix"
+    "lint": "npx ts-standard --fix",
+    "prepublish": "npm run lint && tsc"
   },
   "keywords": [],
   "author": "Jan Parisek",
